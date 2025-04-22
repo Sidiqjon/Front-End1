@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  .page1 {
+    margin: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #49d3f1, #9f2cf8);
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .btn {
+    color: white;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-blue {
+    background-color: #3b82f6;
+  }
+  
+  .btn-orange {
+    background-color: orange;
+  }
+  
+  .btn-red {
+    background-color: red;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .user h5 {
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+  
+  .user small {
+    color: #7b7b7b;
+    font-size: 12px;
+  }
+  
+
+  /* Page 2 style */
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #49d3f1, #9f2cf8);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 320px;
+    position: relative;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .forgotpwd {
+    color: #5e9ded;
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  
+  .login-btn {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #49d3f1, #9f2cf8);
+    cursor: pointer;
+  }
+  
+  .signup-text {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  
+  .signup-text a {
+    color: #5e9ded;
+  }
+  
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+
+  /* Page 3 style */
+
+  .page3 {
+    padding: 20px;
+    background: linear-gradient(to right, #49d3f1, #9f2cf8);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .table-container {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #293c4e;
+    color: white;
+  }
+
+  th {
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align:left;
+    border-bottom: 1px solid #eeeeee;
+  }
